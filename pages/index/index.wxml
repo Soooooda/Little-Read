@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+
+  <text>黑</text>>
+  </view>
+
+<view class="page" style="background:white">
+<text class="qr-txt" bindchange="bindChange">{{text}}</text>
+<input id="fileName" bindchange="bindChange" />
+<button bindtap="myfunction">getbook</button>
+<scroll-view scroll-top="460"><text>{{ttest}}</text>
+</scroll-view>
+
+</view>
+
+
+
+</view>

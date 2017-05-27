@@ -1,0 +1,4 @@
+<!--myreader.wxml-->
+<text>myreader.wxml</text>
+<scroll-view scroll-top="460"  bindtap="myfunction"><text>{{ttest}}hi</text>
+</scroll-view>
