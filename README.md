@@ -1,2 +1,3 @@
 # wechat_434
-434 software project!
+
+This is a course project. It is an wechat micro application with full documents.
